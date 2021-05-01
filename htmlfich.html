@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="cssfich.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <title>shopping cart</title>
+</head>
+<body>
+  <section>
+
+    <div class="title">
+      <p class="total">Shopping Bag Total : <span id="total">0</span> <span>$</span></p>
+    </div>
+
+    <div class="part" id="part1">
+      <div class="icons">
+        <i class="fas fa-skull" onclick="remove()">*</i>
+        <i class="fas fa-heart" id="heart" onclick="heart1()">à</i>
+      </div>
+      <img class="image" src="https://schuh.sirv.com/19/1959241020/1959241020-01-01.jpg?scale.option=fill&scale.width=1600&quality=60" alt="">
+      <span class="product-name"><strong>Sbedri</strong><br> White</span>
+      <div class="btns">
+        <span class="btn" onclick="inc()">+</span>
+        <span class="btn" id="product-qtn">0</span>
+        <span class="btn"  onclick="dec()">-</span>
+      </div>
+      <p class="product-price"><span id="product1price">0</span> <span>$</span></p>
+    </div>
+
+    
+  
+    
+  </section>
+</body>
+<script src="./java.js"></script>
+</html>
